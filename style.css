@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+canvas {
+    display: block;
+    margin: 0 auto; /* Center the canvas */
+}
+
+@media only screen and (max-width: 600px) {
+    canvas {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
