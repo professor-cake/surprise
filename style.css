@@ -15,7 +15,7 @@ body {
 
 #text-container {
     position: absolute;
-    top: 50%;
+    top: 29%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -32,10 +32,3 @@ body {
     to {
         opacity: 1;
     }
-}
-
-@media only screen and (max-width: 600px) {
-    #myCanvas {
-        width: 80%; /* Adjust width for smaller screens */
-    }
-}
