@@ -28,7 +28,7 @@ body {
 @keyframes fadeInText {
     from {
         opacity: 0;
-        transform: translateX(-20px); /* Initial position off-screen to the left */
+        transform: translateX(0px); /* Initial position off-screen to the left */
     }
     to {
         opacity: 1;
