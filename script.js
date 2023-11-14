@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     canvas.width = window.innerWidth;
     canvas.height = window.innerHeight;
 
-    const animationDuration = 15000; // 15 seconds
+    const animationDuration = 9000; // 15 seconds
     const startTime = Date.now();
 
     function draw() {
@@ -25,11 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            // Add text with a romantic cursive font
-            ctx.fillStyle = "#ffffff"; // White color
-            ctx.font = "italic bold 24px cursive";
-            ctx.fillText("From Sun to My Moon", canvas.width / 2 - 100-26, surprizeb(0) * 10 + canvas.height / 2 - 200);
-
+            // Draw the shape
             ctx.beginPath();
             ctx.moveTo(surprizea(0) * 10 + canvas.width / 2, surprizeb(0) * 10 + canvas.height / 2);
 
